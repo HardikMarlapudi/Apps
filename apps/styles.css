@@ -1,0 +1,32 @@
+ 
+ * {
+    background-color: aquamarine;
+ }
+
+#main-header {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+#purpose {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sample-apps {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apps-button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}

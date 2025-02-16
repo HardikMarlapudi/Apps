@@ -1,7 +1,6 @@
  
  * {
     background-color: #ff2560;
-    
  }
 
  h1{
@@ -35,10 +34,11 @@
     font-size: larger;
 }
 
-.app-button{
+.app-button {
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: none;
 }
 
 button{
@@ -52,11 +52,25 @@ button{
     box-sizing: border-box;
     cursor: pointer;
     border-color: blue;
-
 }
 
-button:hover{
+button:hover {
     background: -webkit-linear-gradient(45deg, #ff5080, #ff2560);
     -webkit-box-shadow: 0px 6px 15px rgba(255, 120, 180, 0.5);
-    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    padding: 10px 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff5080;
+    color:azure;
+    text-align: center;
 }

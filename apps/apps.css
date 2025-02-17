@@ -1,6 +1,6 @@
 
 * {
-    background-color: lightgreen;
+    background-color: olive;
 }
 
 h2 {
@@ -16,6 +16,10 @@ h2 {
     font-size: 24px;
 }
 
+i {
+    font-size: 30px;
+    color: blue;
+}
 
 button {
     display: block;
@@ -30,8 +34,8 @@ button {
     border-color: lightgreen;
     left: 0;
     right: 50;
-    top: 5;
-    bottom: 3%;
+    top:10;
+    bottom: 7.5%;
     cursor: pointer;
 }
 
@@ -50,16 +54,17 @@ button {
 }
 
 footer {
-    display: block;
+    display: flex;
     align-items: center;
-    text-align: center;
+    flex-direction: column;
     position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
     left: 0;
     right: 0;
-    top: 5;
     bottom: 0;
-    padding: 5px 10px;
-    color: white;
-    background-color: hsl(45deg, green, blue);
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: green;
+    color:azure;
+    text-align: center;
 }
